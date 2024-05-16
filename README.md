@@ -3,7 +3,7 @@ Force a deactivate and activate of fixed selection of WordPress plugins on stagi
 This plugin is intended to add your own deactivated or activated plugins straight in to the code.
 
 **Deactivated:**
-- Jetpack.php
+- Jetpack
 - Redis-cache
 - wp-redis
 - wp-mail-smtp
