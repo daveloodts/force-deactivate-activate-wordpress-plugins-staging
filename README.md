@@ -1,6 +1,22 @@
 # force-deactivate-activate-wordpress-plugins-staging
 Force deactivate and activate WordPress plugins on staging
 
+Deactivated:
+Jetpack.php
+Redis-cache
+wp-redis
+wp-mail-smtp
+facebook-for-woocommerce
+mailchimp-for-woocommerce
+klaviyo
+official-facebook-pixel
+google-site-kit
+
+Activated
+https://wordpress.org/plugins/disable-emails
+https://wordpress.org/plugins/password-protected
+
+
 Step 1 : How to Add Required plugin in our plugin file ?
 
 Answer :
