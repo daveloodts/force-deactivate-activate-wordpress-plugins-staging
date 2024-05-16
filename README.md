@@ -1,23 +1,24 @@
 # force-deactivate-activate-wordpress-plugins-staging
-Force deactivate and activate WordPress plugins on staging
+Force a deactivate and activate of fixed selection of WordPress plugins on staging with .dev or .local domain extension.
+This plugin is intended to add your own deactivated or activated plugins straight in to the code.
 
-Deactivated:
-Jetpack.php
-Redis-cache
-wp-redis
-wp-mail-smtp
-facebook-for-woocommerce
-mailchimp-for-woocommerce
-klaviyo
-official-facebook-pixel
-google-site-kit
+**Deactivated:**
+- Jetpack.php
+- Redis-cache
+- wp-redis
+- wp-mail-smtp
+- facebook-for-woocommerce
+- mailchimp-for-woocommerce
+- klaviyo
+- official-facebook-pixel
+- google-site-kit
 
-Activated
-https://wordpress.org/plugins/disable-emails
-https://wordpress.org/plugins/password-protected
+**Activated**
+- https://wordpress.org/plugins/disable-emails
+- https://wordpress.org/plugins/password-protected
 
 
-Step 1 : How to Add Required plugin in our plugin file ?
+## Step 1 : How to Add Required plugin in our plugin file ?
 
 Answer :
 
@@ -27,7 +28,7 @@ Answer :
 
 3. This screenshot will more help to you, https://prnt.sc/c1WSgxWzJSXK
 
-Step 2 : How to Add Deactivate plugin in our plugin file ?
+## Step 2 : How to Add Deactivate plugin in our plugin file ?
 
 Answer :
 
